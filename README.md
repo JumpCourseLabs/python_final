@@ -28,8 +28,4 @@ Notes:
 - [ ] React Front End
 - [ ] ?
 
-## MVP Refactor
 
-### Still Pending:
-
-- [ ] Try/Except Blocks for inputs
