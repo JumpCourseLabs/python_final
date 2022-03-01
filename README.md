@@ -1,6 +1,6 @@
 # Python Employee Management System Final
 
-**Michael Phelps for Congnixia JUMP DevOps Program**
+**Michael Phelps for Congnixia JUMP DevOps Program**  
 Notes:
 
 - All functionality has been use-tested - The database is persistent in an off-site MySQL database.
@@ -28,8 +28,4 @@ Notes:
 - [ ] React Front End
 - [ ] ?
 
-## MVP Refactor
 
-### Still Pending:
-
-- [ ] Try/Except Blocks for inputs
