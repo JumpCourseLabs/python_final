@@ -10,15 +10,15 @@ def check_employee(id):
     sql = "select * from employees where employee_id=%s"
 
     # buffering the cursor position so that rowcount works
-    c = db.cursor(buffered=True)
+    query = db.cursor(buffered=True)
     data = (id,)
 
     # make the search
-    c.execute(sql, data)
+    query.execute(sql, data)
 
     # Now we'll count the rows to make sure that there is only one. If not, the employee doesn't exist
 
-    row = c.rowcount
+    row = query.rowcount
 
     if row == 1:
         return True
