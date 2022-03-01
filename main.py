@@ -13,8 +13,7 @@ def menu():
     print("2 : Edit Employee")
     print("3 : Remove Employee")
     print("4 : Display List of Employees")
-    print("5 : Export Employee List")
-    print("6 : Exit \n \n")
+    print("5 : Exit \n \n")
 
     # record input and redirect to correct operation
 
